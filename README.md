@@ -44,6 +44,12 @@
 - [`#define AI Engineer`: Greg Brockman 談工程、研究與 AI 開發的未來](2025-08-10-define-ai-engineer-avWhreBUYF0.md)
   從獨立學習與 Stripe 經歷談到 AI 工程和研究的協作, 並探討 vibe coding、Codex、long-horizon agents、多模型工作流與未來 AI 基礎設施。
 
+- [Claude Code 如何運作: Coding Agent 的簡單迴圈、Tools 與 Context Engineering](2025-12-26-how-claude-code-works-RFKCzGlAU6Q.md)
+  從外部研究與實際使用經驗拆解 Claude Code, 並比較 coding agents 的簡單 loop、通用 tools、context management、subagents 與安全設計。
+
+- [Agentic Engineering: 與 AI 一起工作, 不只是使用 AI](2026-04-07-agentic-engineering-working-with-ai-BEKc4P87XKo.md)
+  將 coding agent 視為需要 context、分工與審查的協作者, 並以 research、plan、implement、Git diff 與權限管理建立可靠工作流。
+
 - [Harness Engineering: 當人類掌舵、Agents 執行時, 如何建造軟體](2026-04-17-harness-engineering-am_oeAoUhew.md)  
   說明當程式碼生成不再稀缺時, 團隊應如何建立 tickets、文件、測試、觀測能力與 guardrails, 讓 agents 能長時間可靠工作。
 
@@ -58,6 +64,9 @@
 
 - [Coding Is Solved 之後, 軟體開發會走向哪裡](2026-05-04-coding-is-solved-SlGRN8jh2RI.md)  
   討論程式碼生產成本下降後, 領域理解、產品品質、組織流程、資料與多代理協調如何成為新的差異來源。
+
+- [未來工程師: 選擇值得做的事, 並為結果負責](2026-07-14-engineer-of-the-future-n97BCfyFIvw.md)
+  說明 agents 普及後, 工程師的價值如何從程式碼產量轉向問題選擇、證據判讀、production verdict、高 agency 與結果責任。
 
 - [Claude Code 入門課程: 安裝、Goals、Skills、GitHub、MCP 與部署](2026-08-05-claude-code-course-7l6bXLAKyEI.md)  
   面向初學者的完整操作課程, 從本機設定、session 和權限開始, 一路涵蓋 goals、skills、GitHub、MCP 與部署。
@@ -76,11 +85,17 @@
 - [如何打造有效的 AI Agents](2025-04-04-building-effective-agents-D7_ipDqhtwk.md)
   Anthropic 從任務複雜度、價值、關鍵能力與錯誤風險說明何時適合使用 agent, 並以 environment、tools 和 system prompt 建立最小可行架構。
 
+- [12-Factor Agents: 建立可靠 LLM 應用的軟體工程 Patterns](2025-07-03-12-factor-agents-8kMaTybvDUw.md)
+  將 production agent 拆成 deterministic software 與短小 LLM loops, 並說明 prompts、context、state、control flow、human interaction 與 framework 的工程取捨。
+
 - [Claude Agent SDK 完整工作坊](2026-01-05-claude-agent-sdk-workshop-TqC1qOfiVcQ.md)  
   透過觀念與 live coding 介紹 tools、filesystem、Bash、skills、subagents、compaction、hooks、permissions、sandboxing 與 production hosting。
 
 - [State of the Claw: OpenClaw 的成長、安全與個人 Agent 願景](2026-04-17-state-of-the-claw-zgNvts_2TUE.md)
   回顧 OpenClaw 的治理與安全壓力, 並討論資料主權、prompt injection、agent personality、dreaming、模組化及 AI 時代的工程 taste。
+
+- [建立能連續執行數小時的 Agent](2026-05-18-build-agents-that-run-for-hours-mR-WAvEPRwE.md)
+  以 planner、generator 與 adversarial evaluator 拆分長時間工作, 並說明完成契約、rubric、trace debugging、持久化狀態及 harness 演進。
 
 - [Claude 長時程任務: 非同步 Agent、Verifier 與自我學習記憶](2026-07-22-claude-long-horizon-tasks-9QebvrrY3KY.md)  
   解釋模型 task horizon 變長後, 為何需要持久 session、獨立 verifier、可修正記憶、背景執行與主動通知。
@@ -102,6 +117,14 @@
 - [不要重建 Agent, 改為建立 Skills](2025-12-08-build-skills-instead-of-agents-CEvIs9y1uog.md)  
   主張通用 agent harness 已逐漸成熟, 差異化應放在封裝程序知識的 skills, 並解釋 skills 與 MCP 的互補關係。
 
+### LLM Inference 與部署基礎設施
+
+- [掌握 LLM Inference 最佳化, 從原理到具成本效益的部署](2025-01-01-llm-inference-optimization-9tvJ_GYJA-o.md)
+  從 tokenization、attention 與 KV cache 說明 LLM serving, 並以 TTFT、ITL、query patterns、quantization、batching 與 parallelism 規劃效能及成本。
+
+- [KV Cache 與 Paged Attention 如何加速 LLM Inference](2026-06-30-kv-cache-paged-attention-o0gkdZBtwEg.md)
+  解釋 prefill 與 decode 的資源差異, 以及 paged attention、prefix caching、chunked prefill 和 speculative decoding 如何改善 VRAM 使用與延遲。
+
 ### Codex 個人工作系統
 
 - [用 Codex 建立可長期運作的個人工作系統](2026-07-24-codex-setting-yourself-up-for-success-il1c1a2FufU.md)  
@@ -111,6 +134,9 @@
   拆解 app server、Responses API、deferred tools、非同步 actions、sandbox、auto review、WebSocket、goal loop 與 server-side compaction。
 
 ### 組織落地與專業領域
+
+- [每家公司都應該有一個 Brain](2026-07-17-every-company-should-have-a-brain-eBUyTS7SzV4.md)
+  將 skills、resolver、evals 與 company brain 對應到 AI-native organization, 並討論 library、librarian、知識衛生與可重複工作的組織複利。
 
 - [Forward Deployed Engineering 101](2026-07-28-forward-deployed-engineering-101-KwhgfwOSToQ.md)  
   說明 FDE 如何在可重用平台上與客戶共同交付商業成果, 以及公司在採用這種 go-to-market 模式前應具備的條件。
