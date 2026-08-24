@@ -1,6 +1,6 @@
 # AI Agent 與軟體工程影片筆記
 
-這個 repository 收錄知識型 YouTube 影片的繁體中文學習筆記, 主題涵蓋 AI coding、agent engineering、Claude Code、Codex、MCP、skills、軟體工程治理及高風險 AI 應用。
+這個 repository 使用 codex skill 收錄知識型 YouTube 影片的繁體中文學習筆記, 主題涵蓋 AI coding、agent engineering、Claude Code、Codex、MCP、skills、軟體工程治理及高風險 AI 應用。
 
 這些文件不是逐字稿。每份筆記會保留影片的重要論點、案例、方法與限制, 再重新整理成適合閱讀、複習及實作的 Markdown 內容。點選下方標題即可開啟對應筆記。
 
@@ -94,6 +94,9 @@
 - [State of the Claw: OpenClaw 的成長、安全與個人 Agent 願景](2026-04-17-state-of-the-claw-zgNvts_2TUE.md)
   回顧 OpenClaw 的治理與安全壓力, 並討論資料主權、prompt injection、agent personality、dreaming、模組化及 AI 時代的工程 taste。
 
+- [AI Agent Harness 深入解析, 用確定性工程約束非確定性模型](2026-05-17-ai-agent-harnesses-deep-dive-C_GG5g38vLU.md)
+  從 browser agent 的失敗案例逐步加入 guardrails、context management、trace verification 與 deterministic login handler, 說明 harness 如何提高舊模型的可靠性。
+
 - [建立能連續執行數小時的 Agent](2026-05-18-build-agents-that-run-for-hours-mR-WAvEPRwE.md)
   以 planner、generator 與 adversarial evaluator 拆分長時間工作, 並說明完成契約、rubric、trace debugging、持久化狀態及 harness 演進。
 
@@ -140,6 +143,9 @@
 
 - [Forward Deployed Engineering 101](2026-07-28-forward-deployed-engineering-101-KwhgfwOSToQ.md)  
   說明 FDE 如何在可重用平台上與客戶共同交付商業成果, 以及公司在採用這種 go-to-market 模式前應具備的條件。
+
+- [企業如何擁有自己的 Intelligence, 從租用模型到掌控 Weights](2026-08-11-own-your-intelligence-bMMv0bZzONg.md)
+  以 cost、speed、performance 與 control 評估 AI capability 的 own-vs-rent 邊界, 並整理團隊、legibility、evals、post-training 與 data flywheel 路線。
 
 - [從 Ambient Documentation 到 Clinical Intelligence](2026-08-19-clinical-intelligence-abridge-u6q-byPWUuo.md)  
   介紹 Abridge 如何從臨床文件切入醫療 AI, 再以評估、專家 rubric、小模型與事件式路由擴展到 clinical intelligence。
