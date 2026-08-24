@@ -1,0 +1,122 @@
+# AI Agent 與軟體工程影片筆記
+
+這個 repository 收錄知識型 YouTube 影片的繁體中文學習筆記, 主題涵蓋 AI coding、agent engineering、Claude Code、Codex、MCP、skills、軟體工程治理及高風險 AI 應用。
+
+這些文件不是逐字稿。每份筆記會保留影片的重要論點、案例、方法與限制, 再重新整理成適合閱讀、複習及實作的 Markdown 內容。點選下方標題即可開啟對應筆記。
+
+## 筆記如何製作
+
+製作流程以來源可追溯性為優先:
+
+1. 核對影片 ID、標題、頻道、發布日期、片長與字幕狀態。
+2. 優先採用創作者字幕, 其次使用原語自動字幕。沒有可驗證內容來源時, 不根據標題自行補寫影片觀點。
+3. 清除字幕中的重複片段、語助詞、寒暄與無關宣傳。
+4. 依影片的論證順序重新組織內容, 保留關鍵案例、條件、反例與講者保留意見。
+5. 為重要定義、示範與主張加入可返回原影片的時間戳連結。
+6. 將影片內容與編輯補充分開, 對收音不清、字幕誤辨或缺乏原始引文的部分明確標示限制。
+7. 完成後核對影片連結、Video ID、metadata 與筆記中的主要主張。
+
+自動字幕可能誤辨人名、產品名稱與技術詞彙。筆記只在上下文足夠明確時修正, 並在各文件末尾說明來源與可信度限制。產品功能、API、模型版本及政策可能在影片發布後改變, 實際使用時應再查閱最新官方文件。
+
+## 建議閱讀路徑
+
+如果你第一次接觸這些主題, 可以依下列順序閱讀:
+
+```text
+軟體工程基本功
+  -> AI coding 工作流
+  -> Agent 與 harness
+  -> MCP、skills 與外部工具
+  -> 長時程任務與多 agent 協作
+  -> 組織治理與高風險應用
+```
+
+## 全部筆記
+
+### AI coding 與軟體工程方法
+
+- [Anthropic Claude Prompt Workshop: 從失敗案例迭代提示詞](2024-08-17-anthropic-claude-prompt-workshop-hkhDdcM5V94.md)  
+  以真實失敗案例說明 prompt 如何進行回歸測試, 並探討指令結構、範例、格式驗證與確定性程式的分工。
+
+- [Claude Code 與 Agentic Coding 的演進](2025-07-04-claude-code-agentic-coding-evolution-Lue8K2jqfKk.md)  
+  從程式設計介面的歷史切入, 解釋自然語言 coding agent 的產品定位, 以及探索、規劃、TDD、context 與平行 agents 的實務方法。
+
+- [Harness Engineering: 當人類掌舵、Agents 執行時, 如何建造軟體](2026-04-17-harness-engineering-am_oeAoUhew.md)  
+  說明當程式碼生成不再稀缺時, 團隊應如何建立 tickets、文件、測試、觀測能力與 guardrails, 讓 agents 能長時間可靠工作。
+
+- [AI 時代, 軟體工程基本功比以往更重要](2026-04-23-software-fundamentals-v4F1gFy-hqg.md)  
+  探討 AI 為何會放大 codebase 的優點與缺陷, 以及系統設計、模組邊界、測試與持續重構為何更加重要。
+
+- [AI Coding 完整工作流: 從需求對齊到代理實作與 QA](2026-04-24-ai-coding-workflow--QFHIoCo-Ko.md)  
+  完整示範研究、原型、需求問答、PRD、issue 拆解、代理實作、人工 QA、部署與監控的端到端流程。
+
+- [從 Vibe Coding 到 Agentic Engineering](2026-04-29-vibe-coding-to-agentic-engineering.md)  
+  整理 Andrej Karpathy 對 Software 3.0 的觀察, 並說明工程師如何轉向規格、驗證、代理協調與品質責任。
+
+- [Coding Is Solved 之後, 軟體開發會走向哪裡](2026-05-04-coding-is-solved-SlGRN8jh2RI.md)  
+  討論程式碼生產成本下降後, 領域理解、產品品質、組織流程、資料與多代理協調如何成為新的差異來源。
+
+- [Claude Code 入門課程: 安裝、Goals、Skills、GitHub、MCP 與部署](2026-08-05-claude-code-course-7l6bXLAKyEI.md)  
+  面向初學者的完整操作課程, 從本機設定、session 和權限開始, 一路涵蓋 goals、skills、GitHub、MCP 與部署。
+
+- [Anthropic CCA Exam: Agentic Engineering 的實戰指南](2026-08-08-cca-agentic-engineering-Z-c11pV_uvU.md)  
+  從認證考試的 production scenarios 提煉 agent loop、stop reason、工具執行、context 隔離、sub-agents 與 CI 的常見 anti-patterns。
+
+- [Anthropic 如何使用 Claude Code: 大規模 Agentic Software Engineering](2026-08-11-agentic-software-engineering-shZgedW15vg.md)  
+  說明大型組織如何為 coding agents 提供 access、knowledge 與快速 feedback loops, 並在有限 context 中擴展客製化能力。
+
+- [AI 生成程式碼的信任問題: Code Review、Context 與治理層](2026-08-20-ai-code-review-context-governance-s-aixZYJG4c.md)  
+  分析 AI 提高程式碼產量後的驗證瓶頸, 以及如何把架構、服務契約、事故經驗與審查決策轉成可稽核的治理 context。
+
+### Agent 架構與長時程工作
+
+- [Claude Agent SDK 完整工作坊](2026-01-05-claude-agent-sdk-workshop-TqC1qOfiVcQ.md)  
+  透過觀念與 live coding 介紹 tools、filesystem、Bash、skills、subagents、compaction、hooks、permissions、sandboxing 與 production hosting。
+
+- [Claude 長時程任務: 非同步 Agent、Verifier 與自我學習記憶](2026-07-22-claude-long-horizon-tasks-9QebvrrY3KY.md)  
+  解釋模型 task horizon 變長後, 為何需要持久 session、獨立 verifier、可修正記憶、背景執行與主動通知。
+
+- [Anthropic Applied AI: Agentic Surfaces 的演進與 Managed Agents 架構](2026-08-11-anthropic-agentic-surfaces-K0X9QDRkIdg.md)  
+  從問題、任務到成果的產品演進, 介紹 agent、environment、session 及「腦與手分離」的 managed agents 架構。
+
+- [為 Agent 演進 Claude API](2025-12-04-evolving-claude-apis-for-agents-aqW68Is_Kj4.md)  
+  從 harness capabilities、context management 與安全執行環境三層, 說明 API 如何承接模型能力並支援高效能 agents。
+
+### MCP、Skills 與工具生態
+
+- [使用 Model Context Protocol 建立 Agents](2025-03-01-building-agents-with-mcp-workshop-kQmXtrmQ5Zg.md)  
+  MCP 完整工作坊, 涵蓋 tools、resources、prompts、server 建置、agent framework 整合、sampling、OAuth 與 remote servers。
+
+- [MCP 的起源、設計取捨與創業機會](2025-06-18-mcp-origins-startup-opportunities-x-8pBqWiTzk.md)  
+  回顧 MCP 為何從複製外部 context 的問題誕生, 並討論開放協定、model agency、工具介面與生態系機會。
+
+- [不要重建 Agent, 改為建立 Skills](2025-12-08-build-skills-instead-of-agents-CEvIs9y1uog.md)  
+  主張通用 agent harness 已逐漸成熟, 差異化應放在封裝程序知識的 skills, 並解釋 skills 與 MCP 的互補關係。
+
+### Codex 個人工作系統
+
+- [用 Codex 建立可長期運作的個人工作系統](2026-07-24-codex-setting-yourself-up-for-success-il1c1a2FufU.md)  
+  介紹 personal monorepo、記憶、appshots、plugins、pinned threads、heartbeat、goals、thread 協作、computer use 與安全界線。
+
+### 組織落地與專業領域
+
+- [Forward Deployed Engineering 101](2026-07-28-forward-deployed-engineering-101-KwhgfwOSToQ.md)  
+  說明 FDE 如何在可重用平台上與客戶共同交付商業成果, 以及公司在採用這種 go-to-market 模式前應具備的條件。
+
+- [從 Ambient Documentation 到 Clinical Intelligence](2026-08-19-clinical-intelligence-abridge-u6q-byPWUuo.md)  
+  介紹 Abridge 如何從臨床文件切入醫療 AI, 再以評估、專家 rubric、小模型與事件式路由擴展到 clinical intelligence。
+
+- [會員端醫療 AI 的 Guardrails: 架構、持續評估與上線決策](2026-08-19-health-ai-guardrails-YXEqC05WEI0.md)  
+  聚焦高風險醫療 AI, 說明確定性規則、PHI 邊界、持續評估、人工判讀與分階段上線如何共同構成安全架構。
+
+## Repository 使用方式
+
+- 在 GitHub 上直接點選上述筆記標題閱讀。
+- 每份文件開頭列出來源影片與 metadata。
+- 筆記中的時間戳會連回 YouTube 對應段落。
+- 可使用 GitHub repository 搜尋功能查找 `MCP`、`context`、`skills`、`guardrails` 等關鍵字。
+- 建議先閱讀摘要, 再依需要進入技術章節與原影片驗證細節。
+
+## 使用與引用
+
+這些內容是對公開影片的編輯式學習筆記, 著作權仍屬原講者與影片發布者。引用重要觀點時, 請優先連結原始影片, 並回到對應時間戳確認完整語境。筆記不應被視為原講者的逐字陳述、正式文件或產品政策。
