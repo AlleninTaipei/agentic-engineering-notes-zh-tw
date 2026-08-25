@@ -69,6 +69,9 @@
 - [未來工程師: 選擇值得做的事, 並為結果負責](2026-07-14-engineer-of-the-future-n97BCfyFIvw.md)
   說明 agents 普及後, 工程師的價值如何從程式碼產量轉向問題選擇、證據判讀、production verdict、高 agency 與結果責任。
 
+- [Harness Engineering 還不夠: 為什麼軟體工廠會失敗](2026-07-23-harness-engineering-is-not-enough-Ib5GBkD555M.md)
+  說明 agent harness 為何無法單獨解決可維護性問題, 並從軟體工廠、coding agent 訓練與長時程 benchmark 探討先規劃再生成的工程方法。
+
 - [Claude Code 入門課程: 安裝、Goals、Skills、GitHub、MCP 與部署](2026-08-05-claude-code-course-7l6bXLAKyEI.md)  
   面向初學者的完整操作課程, 從本機設定、session 和權限開始, 一路涵蓋 goals、skills、GitHub、MCP 與部署。
 
@@ -142,6 +145,9 @@
 
 ### Codex 個人工作系統
 
+- [OpenAI Codex Masterclass: 從程式碼代理到軟體工程系統](2026-04-29-openai-codex-masterclass-MhHEGMFCEB0.md)
+  系統介紹 Codex 的模型與 harness、plugins、automations、程式碼審查、subagents、Guardian approvals、hooks 及雲端工作方式。
+
 - [用 Codex 建立可長期運作的個人工作系統](2026-07-24-codex-setting-yourself-up-for-success-il1c1a2FufU.md)  
   介紹 personal monorepo、記憶、appshots、plugins、pinned threads、heartbeat、goals、thread 協作、computer use 與安全界線。
 
@@ -158,6 +164,9 @@
 
 - [企業如何擁有自己的 Intelligence, 從租用模型到掌控 Weights](2026-08-11-own-your-intelligence-bMMv0bZzONg.md)
   以 cost、speed、performance 與 control 評估 AI capability 的 own-vs-rent 邊界, 並整理團隊、legibility、evals、post-training 與 data flywheel 路線。
+
+- [為什麼企業技術堆疊尚未準備好迎接 AI 代理](2026-08-19-enterprise-tech-stack-ai-agents-mav15aW9lLM.md)
+  以醫療產業為例, 說明如何用不可變事件紀錄、敏感資料隔離、人機等價操作與可重播評估, 建立符合企業治理要求的代理架構。
 
 - [從 Ambient Documentation 到 Clinical Intelligence](2026-08-19-clinical-intelligence-abridge-u6q-byPWUuo.md)  
   介紹 Abridge 如何從臨床文件切入醫療 AI, 再以評估、專家 rubric、小模型與事件式路由擴展到 clinical intelligence。
