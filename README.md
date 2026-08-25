@@ -27,6 +27,7 @@
   -> AI coding 工作流
   -> Agent 與 harness
   -> MCP、skills 與外部工具
+  -> Agent memory 與 multimodal retrieval
   -> 長時程任務與多 agent 協作
   -> 組織治理與高風險應用
 ```
@@ -119,6 +120,17 @@
 
 - [不要重建 Agent, 改為建立 Skills](2025-12-08-build-skills-instead-of-agents-CEvIs9y1uog.md)  
   主張通用 agent harness 已逐漸成熟, 差異化應放在封裝程序知識的 skills, 並解釋 skills 與 MCP 的互補關係。
+
+- [建立優秀 Agent Skills 的實作手冊](2026-06-29-building-great-agent-skills-UNzCG3lw6O0.md)
+  以 trigger、structure、steering 與 pruning 建立 skill review checklist, 並說明 invocation trade-offs、context pointers、leading words、legwork 與 deletion tests。
+
+### Agent Memory 與 Multimodal Retrieval
+
+- [設計 Agent Memory, 原則、Patterns 與實務方法](2025-06-27-architecting-agent-memory-W2HVdB4Jbjs.md)
+  將 persona、conversation、entity、workflow、episodic 與 toolbox memory 放入完整 lifecycle, 並整理 retrieval、ranking、forgetting、治理與 production architecture。
+
+- [從零建立 Multimodal AI Agent](2025-06-27-building-multimodal-ai-agents-640KMYtxCeI.md)
+  以 page-as-image pipeline 建立 mixed-media RAG agent, 涵蓋 multimodal embeddings、vector search、跨頁 context、tool loop 與 session memory。
 
 ### LLM Inference 與部署基礎設施
 
