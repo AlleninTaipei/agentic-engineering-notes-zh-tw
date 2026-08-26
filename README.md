@@ -85,6 +85,9 @@
 - [Coding Is Solved 之後, 軟體開發會走向哪裡](2026-05-04-coding-is-solved-SlGRN8jh2RI.md)  
   討論程式碼生產成本下降後, 領域理解、產品品質、組織流程、資料與多代理協調如何成為新的差異來源。
 
+- [軟體開發的舊假設已經改變: 從做得更深到想得更廣](2026-07-08-everything-we-knew-about-software-has-changed-xUnRQ9vLXxo.md)
+  從模型的 tool calling、長時程工作與 orchestration 演進, 重新檢查工程工具慣性、Markdown tier、專案規模與產品 breadth 的舊假設。
+
 - [未來工程師: 選擇值得做的事, 並為結果負責](2026-07-14-engineer-of-the-future-n97BCfyFIvw.md)
   說明 agents 普及後, 工程師的價值如何從程式碼產量轉向問題選擇、證據判讀、production verdict、高 agency 與結果責任。
 
