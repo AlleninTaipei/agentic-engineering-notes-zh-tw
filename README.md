@@ -34,7 +34,7 @@
 
 ## 重要文章標記
 
-使用 `★ 重要` 標記值得優先閱讀、定期重讀或長期保留的文章。這是個人知識優先級, 不代表影片內容已經過獨立驗證, 也不是品質評分。
+使用 `★` 標記值得優先閱讀、定期重讀或長期保留的文章。這是個人知識優先級, 不代表影片內容已經過獨立驗證, 也不是品質評分。
 
 建議在文章符合下列任一條件時加上標記:
 
@@ -46,7 +46,7 @@
 標記格式固定放在項目開頭:
 
 ```text
-- ★ 重要 | [文章標題](實際筆記檔名)
+- ★ | [文章標題](實際筆記檔名)
 ```
 
 只使用「重要」與「未標記」兩種狀態, 不採用多星評分。當文章不再符合優先級時, 直接移除標記即可。
@@ -91,13 +91,13 @@
 - [Harness Engineering 還不夠: 為什麼軟體工廠會失敗](2026-07-23-harness-engineering-is-not-enough-Ib5GBkD555M.md)
   說明 agent harness 為何無法單獨解決可維護性問題, 並從軟體工廠、coding agent 訓練與長時程 benchmark 探討先規劃再生成的工程方法。
 
-- [Claude Code 入門課程: 安裝、Goals、Skills、GitHub、MCP 與部署](2026-08-05-claude-code-course-7l6bXLAKyEI.md)  
+- ★ | [Claude Code 入門課程: 安裝、Goals、Skills、GitHub、MCP 與部署](2026-08-05-claude-code-course-7l6bXLAKyEI.md)
   面向初學者的完整操作課程, 從本機設定、session 和權限開始, 一路涵蓋 goals、skills、GitHub、MCP 與部署。
 
-- [Anthropic CCA Exam: Agentic Engineering 的實戰指南](2026-08-08-cca-agentic-engineering-Z-c11pV_uvU.md)  
+- ★ | [Anthropic CCA Exam: Agentic Engineering 的實戰指南](2026-08-08-cca-agentic-engineering-Z-c11pV_uvU.md)
   從認證考試的 production scenarios 提煉 agent loop、stop reason、工具執行、context 隔離、sub-agents 與 CI 的常見 anti-patterns。
 
-- ★ 重要 | [Anthropic 如何使用 Claude Code: 大規模 Agentic Software Engineering](2026-08-11-agentic-software-engineering-shZgedW15vg.md)
+- ★ | [Anthropic 如何使用 Claude Code: 大規模 Agentic Software Engineering](2026-08-11-agentic-software-engineering-shZgedW15vg.md)
   說明大型組織如何為 coding agents 提供 access、knowledge 與快速 feedback loops, 並在有限 context 中擴展客製化能力。
 
 - [AI 生成程式碼的信任問題: Code Review、Context 與治理層](2026-08-20-ai-code-review-context-governance-s-aixZYJG4c.md)  
@@ -126,7 +126,7 @@
 - [Claude 長時程任務: 非同步 Agent、Verifier 與自我學習記憶](2026-07-22-claude-long-horizon-tasks-9QebvrrY3KY.md)  
   解釋模型 task horizon 變長後, 為何需要持久 session、獨立 verifier、可修正記憶、背景執行與主動通知。
 
-- ★ 重要 | [Anthropic Applied AI: Agentic Surfaces 的演進與 Managed Agents 架構](2026-08-11-anthropic-agentic-surfaces-K0X9QDRkIdg.md)
+- ★ | [Anthropic Applied AI: Agentic Surfaces 的演進與 Managed Agents 架構](2026-08-11-anthropic-agentic-surfaces-K0X9QDRkIdg.md)
   從問題、任務到成果的產品演進, 介紹 agent、environment、session 及「腦與手分離」的 managed agents 架構。
 
 - [為 Agent 演進 Claude API](2025-12-04-evolving-claude-apis-for-agents-aqW68Is_Kj4.md)  
@@ -173,7 +173,7 @@
 - [用 Codex 建立可長期運作的個人工作系統](2026-07-24-codex-setting-yourself-up-for-success-il1c1a2FufU.md)  
   介紹 personal monorepo、記憶、appshots、plugins、pinned threads、heartbeat、goals、thread 協作、computer use 與安全界線。
 
-- ★ 重要 | [Codex Behind the Harness: 從 Context、Tools 到 Long-running Loops](2026-08-10-codex-behind-the-harness-shRR1e2HXMk.md)
+- ★ | [Codex Behind the Harness: 從 Context、Tools 到 Long-running Loops](2026-08-10-codex-behind-the-harness-shRR1e2HXMk.md)
   拆解 app server、Responses API、deferred tools、非同步 actions、sandbox、auto review、WebSocket、goal loop 與 server-side compaction。
 
 ### 組織落地與專業領域
@@ -181,7 +181,7 @@
 - [每家公司都應該有一個 Brain](2026-07-17-every-company-should-have-a-brain-eBUyTS7SzV4.md)
   將 skills、resolver、evals 與 company brain 對應到 AI-native organization, 並討論 library、librarian、知識衛生與可重複工作的組織複利。
 
-- [Forward Deployed Engineering 101](2026-07-28-forward-deployed-engineering-101-KwhgfwOSToQ.md)  
+- ★ | [Forward Deployed Engineering 101](2026-07-28-forward-deployed-engineering-101-KwhgfwOSToQ.md)
   說明 FDE 如何在可重用平台上與客戶共同交付商業成果, 以及公司在採用這種 go-to-market 模式前應具備的條件。
 
 - [企業如何擁有自己的 Intelligence, 從租用模型到掌控 Weights](2026-08-11-own-your-intelligence-bMMv0bZzONg.md)
