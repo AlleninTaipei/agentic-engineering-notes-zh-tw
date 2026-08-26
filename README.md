@@ -67,6 +67,9 @@
 - [Claude Code 如何運作: Coding Agent 的簡單迴圈、Tools 與 Context Engineering](2025-12-26-how-claude-code-works-RFKCzGlAU6Q.md)
   從外部研究與實際使用經驗拆解 Claude Code, 並比較 coding agents 的簡單 loop、通用 tools、context management、subagents 與安全設計。
 
+- [Research-Plan-Implement 哪裡做錯了: 從 Magic Words 到可控工作流](2026-03-24-everything-wrong-about-research-plan-implement-YwZR6tc7qYg.md)
+  回顧 RPI 的團隊採用問題, 並以 instruction budget、分離 context、design discussion、vertical plans 與 code ownership 建立更可靠的 agentic coding 流程。
+
 - [Agentic Engineering: 與 AI 一起工作, 不只是使用 AI](2026-04-07-agentic-engineering-working-with-ai-BEKc4P87XKo.md)
   將 coding agent 視為需要 context、分工與審查的協作者, 並以 research、plan、implement、Git diff 與權限管理建立可靠工作流。
 
@@ -167,6 +170,9 @@
 
 - [KV Cache 與 Paged Attention 如何加速 LLM Inference](2026-06-30-kv-cache-paged-attention-o0gkdZBtwEg.md)
   解釋 prefill 與 decode 的資源差異, 以及 paged attention、prefix caching、chunked prefill 和 speculative decoding 如何改善 VRAM 使用與延遲。
+
+- [Kernels、強化學習與 Agent Reward Hacking 進階研討](2026-07-17-kernels-rl-reward-hacking-agents-uIiA6DquRiE.md)
+  從模型趨勢、開閉源差距與 inference provider 延伸到 benchmark verifier、kernel 最佳化、reinforcement learning 與 agent reward hacking。
 
 ### Codex 個人工作系統
 
