@@ -32,6 +32,25 @@
   -> 組織治理與高風險應用
 ```
 
+## 重要文章標記
+
+使用 `★ 重要` 標記值得優先閱讀、定期重讀或長期保留的文章。這是個人知識優先級, 不代表影片內容已經過獨立驗證, 也不是品質評分。
+
+建議在文章符合下列任一條件時加上標記:
+
+- 明顯改變對某個主題的理解框架。
+- 對目前工作或未來決策具有反覆參考價值。
+- 提供其他筆記沒有的 production 經驗、反例或方法。
+- 適合作為該主題的入口或核心閱讀材料。
+
+標記格式固定放在項目開頭:
+
+```text
+- ★ 重要 | [文章標題](實際筆記檔名)
+```
+
+只使用「重要」與「未標記」兩種狀態, 不採用多星評分。當文章不再符合優先級時, 直接移除標記即可。
+
 ## 全部筆記
 
 ### AI coding 與軟體工程方法
@@ -107,7 +126,7 @@
 - [Claude 長時程任務: 非同步 Agent、Verifier 與自我學習記憶](2026-07-22-claude-long-horizon-tasks-9QebvrrY3KY.md)  
   解釋模型 task horizon 變長後, 為何需要持久 session、獨立 verifier、可修正記憶、背景執行與主動通知。
 
-- [Anthropic Applied AI: Agentic Surfaces 的演進與 Managed Agents 架構](2026-08-11-anthropic-agentic-surfaces-K0X9QDRkIdg.md)  
+- ★ 重要 | [Anthropic Applied AI: Agentic Surfaces 的演進與 Managed Agents 架構](2026-08-11-anthropic-agentic-surfaces-K0X9QDRkIdg.md)
   從問題、任務到成果的產品演進, 介紹 agent、environment、session 及「腦與手分離」的 managed agents 架構。
 
 - [為 Agent 演進 Claude API](2025-12-04-evolving-claude-apis-for-agents-aqW68Is_Kj4.md)  
