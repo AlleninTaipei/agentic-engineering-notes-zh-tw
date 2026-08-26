@@ -97,7 +97,7 @@
 - [Anthropic CCA Exam: Agentic Engineering 的實戰指南](2026-08-08-cca-agentic-engineering-Z-c11pV_uvU.md)  
   從認證考試的 production scenarios 提煉 agent loop、stop reason、工具執行、context 隔離、sub-agents 與 CI 的常見 anti-patterns。
 
-- [Anthropic 如何使用 Claude Code: 大規模 Agentic Software Engineering](2026-08-11-agentic-software-engineering-shZgedW15vg.md)  
+- ★ 重要 | [Anthropic 如何使用 Claude Code: 大規模 Agentic Software Engineering](2026-08-11-agentic-software-engineering-shZgedW15vg.md)
   說明大型組織如何為 coding agents 提供 access、knowledge 與快速 feedback loops, 並在有限 context 中擴展客製化能力。
 
 - [AI 生成程式碼的信任問題: Code Review、Context 與治理層](2026-08-20-ai-code-review-context-governance-s-aixZYJG4c.md)  
@@ -146,6 +146,9 @@
 - [建立優秀 Agent Skills 的實作手冊](2026-06-29-building-great-agent-skills-UNzCG3lw6O0.md)
   以 trigger、structure、steering 與 pruning 建立 skill review checklist, 並說明 invocation trade-offs、context pointers、leading words、legwork 與 deletion tests。
 
+- [Web Automation 的進階方法: 讓代理像人類一樣操作網站](2026-08-14-web-automation-agents-26RtyAm9y_Q.md)
+  以 CLI、Chrome DevTools Protocol 與 sense-act-verify 迴圈建立可重用的瀏覽器代理, 並說明確定性程式與視覺模型的分工及安全邊界。
+
 ### Agent Memory 與 Multimodal Retrieval
 
 - [設計 Agent Memory, 原則、Patterns 與實務方法](2025-06-27-architecting-agent-memory-W2HVdB4Jbjs.md)
@@ -170,7 +173,7 @@
 - [用 Codex 建立可長期運作的個人工作系統](2026-07-24-codex-setting-yourself-up-for-success-il1c1a2FufU.md)  
   介紹 personal monorepo、記憶、appshots、plugins、pinned threads、heartbeat、goals、thread 協作、computer use 與安全界線。
 
-- [Codex Behind the Harness: 從 Context、Tools 到 Long-running Loops](2026-08-10-codex-behind-the-harness-shRR1e2HXMk.md)
+- ★ 重要 | [Codex Behind the Harness: 從 Context、Tools 到 Long-running Loops](2026-08-10-codex-behind-the-harness-shRR1e2HXMk.md)
   拆解 app server、Responses API、deferred tools、非同步 actions、sandbox、auto review、WebSocket、goal loop 與 server-side compaction。
 
 ### 組織落地與專業領域
