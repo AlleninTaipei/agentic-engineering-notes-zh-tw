@@ -55,14 +55,14 @@
 
 ### AI coding 與軟體工程方法
 
-- [Anthropic Claude Prompt Workshop: 從失敗案例迭代提示詞](2024-08-17-anthropic-claude-prompt-workshop-hkhDdcM5V94.md)  
-  以真實失敗案例說明 prompt 如何進行回歸測試, 並探討指令結構、範例、格式驗證與確定性程式的分工。
-
 - [Claude Code 與 Agentic Coding 的演進](2025-07-04-claude-code-agentic-coding-evolution-Lue8K2jqfKk.md)  
   從程式設計介面的歷史切入, 解釋自然語言 coding agent 的產品定位, 以及探索、規劃、TDD、context 與平行 agents 的實務方法。
 
 - [`#define AI Engineer`: Greg Brockman 談工程、研究與 AI 開發的未來](2025-08-10-define-ai-engineer-avWhreBUYF0.md)
   從獨立學習與 Stripe 經歷談到 AI 工程和研究的協作, 並探討 vibe coding、Codex、long-horizon agents、多模型工作流與未來 AI 基礎設施。
+
+- [Anthropic Claude Prompt Workshop: 從失敗案例迭代提示詞](2024-08-17-anthropic-claude-prompt-workshop-hkhDdcM5V94.md)  
+  以真實失敗案例說明 prompt 如何進行回歸測試, 並探討指令結構、範例、格式驗證與確定性程式的分工。
 
 - [Claude Code 如何運作: Coding Agent 的簡單迴圈、Tools 與 Context Engineering](2025-12-26-how-claude-code-works-RFKCzGlAU6Q.md)
   從外部研究與實際使用經驗拆解 Claude Code, 並比較 coding agents 的簡單 loop、通用 tools、context management、subagents 與安全設計。
@@ -88,7 +88,7 @@
 - [Coding Is Solved 之後, 軟體開發會走向哪裡](2026-05-04-coding-is-solved-SlGRN8jh2RI.md)  
   討論程式碼生產成本下降後, 領域理解、產品品質、組織流程、資料與多代理協調如何成為新的差異來源。
 
-- [軟體開發的舊假設已經改變: 從做得更深到想得更廣](2026-07-08-everything-we-knew-about-software-has-changed-xUnRQ9vLXxo.md)
+- ★ | [軟體開發的舊假設已經改變: 從做得更深到想得更廣](2026-07-08-everything-we-knew-about-software-has-changed-xUnRQ9vLXxo.md)
   從模型的 tool calling、長時程工作與 orchestration 演進, 重新檢查工程工具慣性、Markdown tier、專案規模與產品 breadth 的舊假設。
 
 - [未來工程師: 選擇值得做的事, 並為結果負責](2026-07-14-engineer-of-the-future-n97BCfyFIvw.md)
@@ -117,16 +117,19 @@
 - [12-Factor Agents: 建立可靠 LLM 應用的軟體工程 Patterns](2025-07-03-12-factor-agents-8kMaTybvDUw.md)
   將 production agent 拆成 deterministic software 與短小 LLM loops, 並說明 prompts、context、state、control flow、human interaction 與 framework 的工程取捨。
 
+- [為 Agent 演進 Claude API](2025-12-04-evolving-claude-apis-for-agents-aqW68Is_Kj4.md)  
+  從 harness capabilities、context management 與安全執行環境三層, 說明 API 如何承接模型能力並支援高效能 agents。
+
 - [Claude Agent SDK 完整工作坊](2026-01-05-claude-agent-sdk-workshop-TqC1qOfiVcQ.md)  
   透過觀念與 live coding 介紹 tools、filesystem、Bash、skills、subagents、compaction、hooks、permissions、sandboxing 與 production hosting。
 
 - [State of the Claw: OpenClaw 的成長、安全與個人 Agent 願景](2026-04-17-state-of-the-claw-zgNvts_2TUE.md)
   回顧 OpenClaw 的治理與安全壓力, 並討論資料主權、prompt injection、agent personality、dreaming、模組化及 AI 時代的工程 taste。
 
-- [AI Agent Harness 深入解析, 用確定性工程約束非確定性模型](2026-05-17-ai-agent-harnesses-deep-dive-C_GG5g38vLU.md)
+- ★ | [AI Agent Harness 深入解析, 用確定性工程約束非確定性模型](2026-05-17-ai-agent-harnesses-deep-dive-C_GG5g38vLU.md)
   從 browser agent 的失敗案例逐步加入 guardrails、context management、trace verification 與 deterministic login handler, 說明 harness 如何提高舊模型的可靠性。
 
-- [建立能連續執行數小時的 Agent](2026-05-18-build-agents-that-run-for-hours-mR-WAvEPRwE.md)
+- ★ | [建立能連續執行數小時的 Agent](2026-05-18-build-agents-that-run-for-hours-mR-WAvEPRwE.md)
   以 planner、generator 與 adversarial evaluator 拆分長時間工作, 並說明完成契約、rubric、trace debugging、持久化狀態及 harness 演進。
 
 - [Claude 長時程任務: 非同步 Agent、Verifier 與自我學習記憶](2026-07-22-claude-long-horizon-tasks-9QebvrrY3KY.md)  
@@ -134,9 +137,6 @@
 
 - ★ | [Anthropic Applied AI: Agentic Surfaces 的演進與 Managed Agents 架構](2026-08-11-anthropic-agentic-surfaces-K0X9QDRkIdg.md)
   從問題、任務到成果的產品演進, 介紹 agent、environment、session 及「腦與手分離」的 managed agents 架構。
-
-- [為 Agent 演進 Claude API](2025-12-04-evolving-claude-apis-for-agents-aqW68Is_Kj4.md)  
-  從 harness capabilities、context management 與安全執行環境三層, 說明 API 如何承接模型能力並支援高效能 agents。
 
 ### MCP、Skills 與工具生態
 
@@ -168,10 +168,10 @@
 - [掌握 LLM Inference 最佳化, 從原理到具成本效益的部署](2025-01-01-llm-inference-optimization-9tvJ_GYJA-o.md)
   從 tokenization、attention 與 KV cache 說明 LLM serving, 並以 TTFT、ITL、query patterns、quantization、batching 與 parallelism 規劃效能及成本。
 
-- [KV Cache 與 Paged Attention 如何加速 LLM Inference](2026-06-30-kv-cache-paged-attention-o0gkdZBtwEg.md)
+- ★ | [KV Cache 與 Paged Attention 如何加速 LLM Inference](2026-06-30-kv-cache-paged-attention-o0gkdZBtwEg.md)
   解釋 prefill 與 decode 的資源差異, 以及 paged attention、prefix caching、chunked prefill 和 speculative decoding 如何改善 VRAM 使用與延遲。
 
-- [Kernels、強化學習與 Agent Reward Hacking 進階研討](2026-07-17-kernels-rl-reward-hacking-agents-uIiA6DquRiE.md)
+- ★ | [Kernels、強化學習與 Agent Reward Hacking 進階研討](2026-07-17-kernels-rl-reward-hacking-agents-uIiA6DquRiE.md)
   從模型趨勢、開閉源差距與 inference provider 延伸到 benchmark verifier、kernel 最佳化、reinforcement learning 與 agent reward hacking。
 
 ### Codex 個人工作系統
