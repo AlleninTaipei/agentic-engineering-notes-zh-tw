@@ -165,6 +165,9 @@
 
 ### LLM Inference 與部署基礎設施
 
+- [Docker 與 Kubernetes 基礎實作: 從容器到工作負載編排](2022-10-12-docker-kubernetes-fundamentals-kTp5xUtcalw.md)
+  從 microservices、Docker image、Compose 與 registry 開始, 逐步實作 Kubernetes workloads、Services、儲存、設定、健康檢查與 HPA。
+
 - [掌握 LLM Inference 最佳化, 從原理到具成本效益的部署](2025-01-01-llm-inference-optimization-9tvJ_GYJA-o.md)
   從 tokenization、attention 與 KV cache 說明 LLM serving, 並以 TTFT、ITL、query patterns、quantization、batching 與 parallelism 規劃效能及成本。
 
@@ -187,7 +190,7 @@
 
 ### 組織落地與專業領域
 
-- [Cursor 的 Forward Deployed Engineering: 如何設計高影響力的 FDE 團隊](2026-07-14-forward-deployed-engineering-cursor-APqXGyCoGW4.md)
+- ★ | [Cursor 的 Forward Deployed Engineering: 如何設計高影響力的 FDE 團隊](2026-07-14-forward-deployed-engineering-cursor-APqXGyCoGW4.md)
   整理 Cursor 如何判斷 FDE 適用場景、避免人力增補、組建初期團隊, 並以六週專案、客戶共建及 ROI 驗證推動企業 AI 落地。
 
 - [每家公司都應該有一個 Brain](2026-07-17-every-company-should-have-a-brain-eBUyTS7SzV4.md)
