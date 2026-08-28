@@ -187,6 +187,9 @@
 
 ### 組織落地與專業領域
 
+- [Cursor 的 Forward Deployed Engineering: 如何設計高影響力的 FDE 團隊](2026-07-14-forward-deployed-engineering-cursor-APqXGyCoGW4.md)
+  整理 Cursor 如何判斷 FDE 適用場景、避免人力增補、組建初期團隊, 並以六週專案、客戶共建及 ROI 驗證推動企業 AI 落地。
+
 - [每家公司都應該有一個 Brain](2026-07-17-every-company-should-have-a-brain-eBUyTS7SzV4.md)
   將 skills、resolver、evals 與 company brain 對應到 AI-native organization, 並討論 library、librarian、知識衛生與可重複工作的組織複利。
 
