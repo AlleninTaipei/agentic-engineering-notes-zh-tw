@@ -67,13 +67,13 @@
 - [Claude Code 如何運作: Coding Agent 的簡單迴圈、Tools 與 Context Engineering](2025-12-26-how-claude-code-works-RFKCzGlAU6Q.md)
   從外部研究與實際使用經驗拆解 Claude Code, 並比較 coding agents 的簡單 loop、通用 tools、context management、subagents 與安全設計。
 
-- [Research-Plan-Implement 哪裡做錯了: 從 Magic Words 到可控工作流](2026-03-24-everything-wrong-about-research-plan-implement-YwZR6tc7qYg.md)
+- ★ | [Research-Plan-Implement 哪裡做錯了: 從 Magic Words 到可控工作流](2026-03-24-everything-wrong-about-research-plan-implement-YwZR6tc7qYg.md)
   回顧 RPI 的團隊採用問題, 並以 instruction budget、分離 context、design discussion、vertical plans 與 code ownership 建立更可靠的 agentic coding 流程。
 
 - [Agentic Engineering: 與 AI 一起工作, 不只是使用 AI](2026-04-07-agentic-engineering-working-with-ai-BEKc4P87XKo.md)
   將 coding agent 視為需要 context、分工與審查的協作者, 並以 research、plan、implement、Git diff 與權限管理建立可靠工作流。
 
-- [Harness Engineering: 當人類掌舵、Agents 執行時, 如何建造軟體](2026-04-17-harness-engineering-am_oeAoUhew.md)  
+- ★ | [Harness Engineering: 當人類掌舵、Agents 執行時, 如何建造軟體](2026-04-17-harness-engineering-am_oeAoUhew.md)  
   說明當程式碼生成不再稀缺時, 團隊應如何建立 tickets、文件、測試、觀測能力與 guardrails, 讓 agents 能長時間可靠工作。
 
 - [AI 時代, 軟體工程基本功比以往更重要](2026-04-23-software-fundamentals-v4F1gFy-hqg.md)  
@@ -88,19 +88,19 @@
 - [Coding Is Solved 之後, 軟體開發會走向哪裡](2026-05-04-coding-is-solved-SlGRN8jh2RI.md)  
   討論程式碼生產成本下降後, 領域理解、產品品質、組織流程、資料與多代理協調如何成為新的差異來源。
 
-- ★ | [軟體開發的舊假設已經改變: 從做得更深到想得更廣](2026-07-08-everything-we-knew-about-software-has-changed-xUnRQ9vLXxo.md)
+- [軟體開發的舊假設已經改變: 從做得更深到想得更廣](2026-07-08-everything-we-knew-about-software-has-changed-xUnRQ9vLXxo.md)
   從模型的 tool calling、長時程工作與 orchestration 演進, 重新檢查工程工具慣性、Markdown tier、專案規模與產品 breadth 的舊假設。
 
 - [未來工程師: 選擇值得做的事, 並為結果負責](2026-07-14-engineer-of-the-future-n97BCfyFIvw.md)
   說明 agents 普及後, 工程師的價值如何從程式碼產量轉向問題選擇、證據判讀、production verdict、高 agency 與結果責任。
 
-- [Harness Engineering 還不夠: 為什麼軟體工廠會失敗](2026-07-23-harness-engineering-is-not-enough-Ib5GBkD555M.md)
+- ★ | [Harness Engineering 還不夠: 為什麼軟體工廠會失敗](2026-07-23-harness-engineering-is-not-enough-Ib5GBkD555M.md)
   說明 agent harness 為何無法單獨解決可維護性問題, 並從軟體工廠、coding agent 訓練與長時程 benchmark 探討先規劃再生成的工程方法。
 
-- ★ | [Claude Code 入門課程: 安裝、Goals、Skills、GitHub、MCP 與部署](2026-08-05-claude-code-course-7l6bXLAKyEI.md)
+- [Claude Code 入門課程: 安裝、Goals、Skills、GitHub、MCP 與部署](2026-08-05-claude-code-course-7l6bXLAKyEI.md)
   面向初學者的完整操作課程, 從本機設定、session 和權限開始, 一路涵蓋 goals、skills、GitHub、MCP 與部署。
 
-- ★ | [Anthropic CCA Exam: Agentic Engineering 的實戰指南](2026-08-08-cca-agentic-engineering-Z-c11pV_uvU.md)
+- [Anthropic CCA Exam: Agentic Engineering 的實戰指南](2026-08-08-cca-agentic-engineering-Z-c11pV_uvU.md)
   從認證考試的 production scenarios 提煉 agent loop、stop reason、工具執行、context 隔離、sub-agents 與 CI 的常見 anti-patterns。
 
 - ★ | [Anthropic 如何使用 Claude Code: 大規模 Agentic Software Engineering](2026-08-11-agentic-software-engineering-shZgedW15vg.md)
@@ -114,13 +114,13 @@
 - [如何打造有效的 AI Agents](2025-04-04-building-effective-agents-D7_ipDqhtwk.md)
   Anthropic 從任務複雜度、價值、關鍵能力與錯誤風險說明何時適合使用 agent, 並以 environment、tools 和 system prompt 建立最小可行架構。
 
-- [12-Factor Agents: 建立可靠 LLM 應用的軟體工程 Patterns](2025-07-03-12-factor-agents-8kMaTybvDUw.md)
+- ★ | [12-Factor Agents: 建立可靠 LLM 應用的軟體工程 Patterns](2025-07-03-12-factor-agents-8kMaTybvDUw.md)
   將 production agent 拆成 deterministic software 與短小 LLM loops, 並說明 prompts、context、state、control flow、human interaction 與 framework 的工程取捨。
 
 - [為 Agent 演進 Claude API](2025-12-04-evolving-claude-apis-for-agents-aqW68Is_Kj4.md)  
   從 harness capabilities、context management 與安全執行環境三層, 說明 API 如何承接模型能力並支援高效能 agents。
 
-- [Claude Agent SDK 完整工作坊](2026-01-05-claude-agent-sdk-workshop-TqC1qOfiVcQ.md)  
+- ★ | [Claude Agent SDK 完整工作坊](2026-01-05-claude-agent-sdk-workshop-TqC1qOfiVcQ.md)  
   透過觀念與 live coding 介紹 tools、filesystem、Bash、skills、subagents、compaction、hooks、permissions、sandboxing 與 production hosting。
 
 - [State of the Claw: OpenClaw 的成長、安全與個人 Agent 願景](2026-04-17-state-of-the-claw-zgNvts_2TUE.md)
@@ -132,7 +132,7 @@
 - ★ | [建立能連續執行數小時的 Agent](2026-05-18-build-agents-that-run-for-hours-mR-WAvEPRwE.md)
   以 planner、generator 與 adversarial evaluator 拆分長時間工作, 並說明完成契約、rubric、trace debugging、持久化狀態及 harness 演進。
 
-- [Claude 長時程任務: 非同步 Agent、Verifier 與自我學習記憶](2026-07-22-claude-long-horizon-tasks-9QebvrrY3KY.md)  
+- ★ | [Claude 長時程任務: 非同步 Agent、Verifier 與自我學習記憶](2026-07-22-claude-long-horizon-tasks-9QebvrrY3KY.md)  
   解釋模型 task horizon 變長後, 為何需要持久 session、獨立 verifier、可修正記憶、背景執行與主動通知。
 
 - ★ | [Anthropic Applied AI: Agentic Surfaces 的演進與 Managed Agents 架構](2026-08-11-anthropic-agentic-surfaces-K0X9QDRkIdg.md)
@@ -171,7 +171,7 @@
 - [掌握 LLM Inference 最佳化, 從原理到具成本效益的部署](2025-01-01-llm-inference-optimization-9tvJ_GYJA-o.md)
   從 tokenization、attention 與 KV cache 說明 LLM serving, 並以 TTFT、ITL、query patterns、quantization、batching 與 parallelism 規劃效能及成本。
 
-- ★ | [KV Cache 與 Paged Attention 如何加速 LLM Inference](2026-06-30-kv-cache-paged-attention-o0gkdZBtwEg.md)
+- [KV Cache 與 Paged Attention 如何加速 LLM Inference](2026-06-30-kv-cache-paged-attention-o0gkdZBtwEg.md)
   解釋 prefill 與 decode 的資源差異, 以及 paged attention、prefix caching、chunked prefill 和 speculative decoding 如何改善 VRAM 使用與延遲。
 
 - ★ | [Kernels、強化學習與 Agent Reward Hacking 進階研討](2026-07-17-kernels-rl-reward-hacking-agents-uIiA6DquRiE.md)
@@ -190,7 +190,7 @@
 
 ### 組織落地與專業領域
 
-- ★ | [Cursor 的 Forward Deployed Engineering: 如何設計高影響力的 FDE 團隊](2026-07-14-forward-deployed-engineering-cursor-APqXGyCoGW4.md)
+- [Cursor 的 Forward Deployed Engineering: 如何設計高影響力的 FDE 團隊](2026-07-14-forward-deployed-engineering-cursor-APqXGyCoGW4.md)
   整理 Cursor 如何判斷 FDE 適用場景、避免人力增補、組建初期團隊, 並以六週專案、客戶共建及 ROI 驗證推動企業 AI 落地。
 
 - [每家公司都應該有一個 Brain](2026-07-17-every-company-should-have-a-brain-eBUyTS7SzV4.md)
