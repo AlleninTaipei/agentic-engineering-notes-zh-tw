@@ -103,6 +103,9 @@
 - [AI 生成程式碼的信任問題: Code Review、Context 與治理層](2026-08-20-ai-code-review-context-governance-s-aixZYJG4c.md)  
   分析 AI 提高程式碼產量後的驗證瓶頸, 以及如何把架構、服務契約、事故經驗與審查決策轉成可稽核的治理 context。
 
+- ★ | [從 AI-Assisted 到 AI-Native: AWS Frontier Development 的五項團隊習慣](2026-08-28-ai-native-frontier-development-pqlWNihgdjI.md)
+  以 Amazon 內部三組案例與 50 個一般團隊的 pilot, 說明 context、brownfield 改造、規格、快速測試與組織決策如何影響 coding agents 的實際交付槓桿。
+
 ### Agent 架構與長時程工作
 
 - [如何打造有效的 AI Agents](2025-04-04-building-effective-agents-D7_ipDqhtwk.md)
