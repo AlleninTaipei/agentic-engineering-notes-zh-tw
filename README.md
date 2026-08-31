@@ -88,6 +88,9 @@
 - [Coding Is Solved 之後, 軟體開發會走向哪裡](2026-05-04-coding-is-solved-SlGRN8jh2RI.md)  
   討論程式碼生產成本下降後, 領域理解、產品品質、組織流程、資料與多代理協調如何成為新的差異來源。
 
+- [理解力才是新的瓶頸: 與 AI Agent 協作時如何留在人類決策迴路中](2026-07-10-understanding-is-the-new-bottleneck-WkBPX-oDMnA.md)
+  以 explainer、理解測驗、microworlds 與團隊共享空間, 建立不只驗證正確性, 也能維持人類參與和創造能力的 AI 協作流程。
+
 - [未來工程師: 選擇值得做的事, 並為結果負責](2026-07-14-engineer-of-the-future-n97BCfyFIvw.md)
   說明 agents 普及後, 工程師的價值如何從程式碼產量轉向問題選擇、證據判讀、production verdict、高 agency 與結果責任。
 
