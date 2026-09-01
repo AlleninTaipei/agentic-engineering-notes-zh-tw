@@ -120,9 +120,6 @@
 - ★ | [Claude Agent SDK 完整工作坊](2026-01-05-claude-agent-sdk-workshop-TqC1qOfiVcQ.md)  
   透過觀念與 live coding 介紹 tools、filesystem、Bash、skills、subagents、compaction、hooks、permissions、sandboxing 與 production hosting。
 
-- [State of the Claw: OpenClaw 的成長、安全與個人 Agent 願景](2026-04-17-state-of-the-claw-zgNvts_2TUE.md)
-  回顧 OpenClaw 的治理與安全壓力, 並討論資料主權、prompt injection、agent personality、dreaming、模組化及 AI 時代的工程 taste。
-
 - ★ | [AI Agent Harness 深入解析, 用確定性工程約束非確定性模型](2026-05-17-ai-agent-harnesses-deep-dive-C_GG5g38vLU.md)
   從 browser agent 的失敗案例逐步加入 guardrails、context management、trace verification 與 deterministic login handler, 說明 harness 如何提高舊模型的可靠性。
 
