@@ -125,6 +125,9 @@
 - [使用 Model Context Protocol 建立 Agents](2025-03-01-building-agents-with-mcp-workshop-kQmXtrmQ5Zg.md)  
   MCP 完整工作坊, 涵蓋 tools、resources、prompts、server 建置、agent framework 整合、sampling、OAuth 與 remote servers。
 
+- ★ | [Agent-Native MCP Server 設計: 從 REST Wrapper 到可用產品](2026-01-12-agent-native-mcp-server-design-96G7FLab8xc.md)
+  從 FastMCP 維護經驗整理 agent-native MCP server 設計, 涵蓋 outcome-oriented tools、argument flattening、error prompting、token budget 與 REST wrapper curation。
+
 - [不要重建 Agent, 改為建立 Skills](2025-12-08-build-skills-instead-of-agents-CEvIs9y1uog.md)  
   主張通用 agent harness 已逐漸成熟, 差異化應放在封裝程序知識的 skills, 並解釋 skills 與 MCP 的互補關係。
 
