@@ -64,23 +64,11 @@
 - [Anthropic Claude Prompt Workshop: 從失敗案例迭代提示詞](2024-08-17-anthropic-claude-prompt-workshop-hkhDdcM5V94.md)  
   以真實失敗案例說明 prompt 如何進行回歸測試, 並探討指令結構、範例、格式驗證與確定性程式的分工。
 
-- [Claude Code 如何運作: Coding Agent 的簡單迴圈、Tools 與 Context Engineering](2025-12-26-how-claude-code-works-RFKCzGlAU6Q.md)
-  從外部研究與實際使用經驗拆解 Claude Code, 並比較 coding agents 的簡單 loop、通用 tools、context management、subagents 與安全設計。
-
 - ★ | [Research-Plan-Implement 哪裡做錯了: 從 Magic Words 到可控工作流](2026-03-24-everything-wrong-about-research-plan-implement-YwZR6tc7qYg.md)
   回顧 RPI 的團隊採用問題, 並以 instruction budget、分離 context、design discussion、vertical plans 與 code ownership 建立更可靠的 agentic coding 流程。
 
-- [Agentic Engineering: 與 AI 一起工作, 不只是使用 AI](2026-04-07-agentic-engineering-working-with-ai-BEKc4P87XKo.md)
-  將 coding agent 視為需要 context、分工與審查的協作者, 並以 research、plan、implement、Git diff 與權限管理建立可靠工作流。
-
 - ★ | [Harness Engineering: 當人類掌舵、Agents 執行時, 如何建造軟體](2026-04-17-harness-engineering-am_oeAoUhew.md)  
   說明當程式碼生成不再稀缺時, 團隊應如何建立 tickets、文件、測試、觀測能力與 guardrails, 讓 agents 能長時間可靠工作。
-
-- [AI 時代, 軟體工程基本功比以往更重要](2026-04-23-software-fundamentals-v4F1gFy-hqg.md)  
-  探討 AI 為何會放大 codebase 的優點與缺陷, 以及系統設計、模組邊界、測試與持續重構為何更加重要。
-
-- [AI Coding 完整工作流: 從需求對齊到代理實作與 QA](2026-04-24-ai-coding-workflow--QFHIoCo-Ko.md)  
-  完整示範研究、原型、需求問答、PRD、issue 拆解、代理實作、人工 QA、部署與監控的端到端流程。
 
 - [從 Vibe Coding 到 Agentic Engineering](2026-04-29-vibe-coding-to-agentic-engineering.md)  
   整理 Andrej Karpathy 對 Software 3.0 的觀察, 並說明工程師如何轉向規格、驗證、代理協調與品質責任。
@@ -136,9 +124,6 @@
 
 - [使用 Model Context Protocol 建立 Agents](2025-03-01-building-agents-with-mcp-workshop-kQmXtrmQ5Zg.md)  
   MCP 完整工作坊, 涵蓋 tools、resources、prompts、server 建置、agent framework 整合、sampling、OAuth 與 remote servers。
-
-- [MCP 的起源、設計取捨與創業機會](2025-06-18-mcp-origins-startup-opportunities-x-8pBqWiTzk.md)  
-  回顧 MCP 為何從複製外部 context 的問題誕生, 並討論開放協定、model agency、工具介面與生態系機會。
 
 - [不要重建 Agent, 改為建立 Skills](2025-12-08-build-skills-instead-of-agents-CEvIs9y1uog.md)  
   主張通用 agent harness 已逐漸成熟, 差異化應放在封裝程序知識的 skills, 並解釋 skills 與 MCP 的互補關係。
