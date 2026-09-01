@@ -136,6 +136,9 @@
 
 ### Agent Memory 與 Multimodal Retrieval
 
+- [AI Research OS: 將萬筆 Notes 轉成可查詢、可演進的研究記憶](2026-06-26-ai-research-os-memory-ZRM_TfEZcIo.md)
+  以 immutable raw、file-based index 與 living wiki 建立 project-scoped 研究記憶, 並說明 deep research、漸進式查詢、來源追溯及增量演進的架構取捨。
+
 - [設計 Agent Memory, 原則、Patterns 與實務方法](2025-06-27-architecting-agent-memory-W2HVdB4Jbjs.md)
   將 persona、conversation、entity、workflow、episodic 與 toolbox memory 放入完整 lifecycle, 並整理 retrieval、ranking、forgetting、治理與 production architecture。
 
