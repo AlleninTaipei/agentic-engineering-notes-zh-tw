@@ -168,6 +168,9 @@
 - [掌握 LLM Inference 最佳化, 從原理到具成本效益的部署](2025-01-01-llm-inference-optimization-9tvJ_GYJA-o.md)
   從 tokenization、attention 與 KV cache 說明 LLM serving, 並以 TTFT、ITL、query patterns、quantization、batching 與 parallelism 規劃效能及成本。
 
+- [Reinforcement Learning 與 GRPO 實戰: Reward Functions, PPO, Unsloth 和 Dynamic Quantization](2025-07-19-reinforcement-learning-grpo-workshop-OkEGJ5G3foU.md)
+  從 REINFORCE 與 PPO 建立 GRPO 直覺, 並以 reward functions, SFT priming, rollout diversity 和 dynamic quantization 整理可操作的訓練流程.
+
 - [KV Cache 與 Paged Attention 如何加速 LLM Inference](2026-06-30-kv-cache-paged-attention-o0gkdZBtwEg.md)
   解釋 prefill 與 decode 的資源差異, 以及 paged attention、prefix caching、chunked prefill 和 speculative decoding 如何改善 VRAM 使用與延遲。
 
