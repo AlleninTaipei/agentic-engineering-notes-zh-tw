@@ -211,6 +211,9 @@
 - [會員端醫療 AI 的 Guardrails: 架構、持續評估與上線決策](2026-08-19-health-ai-guardrails-YXEqC05WEI0.md)  
   聚焦高風險醫療 AI, 說明確定性規則、PHI 邊界、持續評估、人工判讀與分階段上線如何共同構成安全架構。
 
+- ★ | [哪些 AI Startups 能取得 Enterprise Contracts: 企業買方的採購, 資安與可靠性門檻](2026-08-29-enterprise-ai-contracts-7A65O-0lvKE.md)
+  由大型金融企業買方整理 vendor 採購失敗案例, 說明 efficacy, ZDR, least privilege, admin APIs, audit logs, SLA, data retention 和 entitlements 如何決定 AI 產品能否進入 production.
+
 ## Repository 使用方式
 
 - 在 GitHub 上直接點選上述筆記標題閱讀。
