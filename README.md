@@ -128,6 +128,9 @@
 - [使用 Model Context Protocol 建立 Agents](2025-03-01-building-agents-with-mcp-workshop-kQmXtrmQ5Zg.md)  
   MCP 完整工作坊, 涵蓋 tools、resources、prompts、server 建置、agent framework 整合、sampling、OAuth 與 remote servers。
 
+- [Anthropic MCP 共同建立者談協定起源、開源決策與下一步](2025-06-16-model-context-protocol-CQywdSdi5iA.md)
+  由 Anthropic MCP 團隊與共同建立者回顧協定起源、內部驗證、開源取捨, 並說明 remote MCP、tool selection 與早期 roadmap。
+
 - ★ | [Agent-Native MCP Server 設計: 從 REST Wrapper 到可用產品](2026-01-12-agent-native-mcp-server-design-96G7FLab8xc.md)
   從 FastMCP 維護經驗整理 agent-native MCP server 設計, 涵蓋 outcome-oriented tools、argument flattening、error prompting、token budget 與 REST wrapper curation。
 
