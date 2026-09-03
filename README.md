@@ -111,6 +111,9 @@
 - [Karpathy 談 Code Agents、AutoResearch 與 Loopy AI 時代](2026-03-20-karpathy-code-agents-autoresearch-loopy-era-kwSVtQ7dziU.md)
   以 AutoResearch 說明如何用 objective metric、bounded code changes 與持續 experiment loop 移除逐輪人工 prompting, 並探討 `program.md`、trusted verification 與 research swarm。
 
+- ★ | [Agentic Applications 實戰 Evals: 從 Traces, Failure Taxonomy 到 Experiments](2026-05-14-hands-on-agent-evals-Xfl50508LZM.md)
+  以 financial analysis agent 建立完整 eval workflow, 涵蓋 trace 閱讀, 失敗分類, code eval, LLM judge, meta-evaluation, golden dataset 與 controlled experiments.
+
 - ★ | [AI Agent Harness 深入解析, 用確定性工程約束非確定性模型](2026-05-17-ai-agent-harnesses-deep-dive-C_GG5g38vLU.md)
   從 browser agent 的失敗案例逐步加入 guardrails、context management、trace verification 與 deterministic login handler, 說明 harness 如何提高舊模型的可靠性。
 
