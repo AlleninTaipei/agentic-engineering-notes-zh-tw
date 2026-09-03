@@ -70,6 +70,9 @@
 - ★ | [Harness Engineering: 當人類掌舵、Agents 執行時, 如何建造軟體](2026-04-17-harness-engineering-am_oeAoUhew.md)  
   說明當程式碼生成不再稀缺時, 團隊應如何建立 tickets、文件、測試、觀測能力與 guardrails, 讓 agents 能長時間可靠工作。
 
+- [AI Coding 完整工作流: 從需求對齊到代理實作與 QA](2026-04-24-ai-coding-workflow--QFHIoCo-Ko.md)
+  以 grill session, PRD, issues 和獨立 agent sessions 串起需求對齊、實作、人工 QA、部署與監控, 並說明 deep modules 和 context 管理的取捨.
+
 - [從 Vibe Coding 到 Agentic Engineering](2026-04-29-vibe-coding-to-agentic-engineering.md)  
   整理 Andrej Karpathy 對 Software 3.0 的觀察, 並說明工程師如何轉向規格、驗證、代理協調與品質責任。
 
