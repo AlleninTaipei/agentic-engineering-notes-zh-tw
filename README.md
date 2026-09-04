@@ -55,6 +55,9 @@
 
 ### AI coding 與軟體工程方法
 
+- [AI 時代, 軟體工程基本功比以往更重要](2026-04-23-software-fundamentals-v4F1gFy-hqg.md)
+  從 specs-to-code 的失敗模式說明 AI 如何放大 software entropy, 並以清楚需求、deep modules、測試與持續重構維持 codebase 的可理解性及可修改性.
+
 - [Claude Code 與 Agentic Coding 的演進](2025-07-04-claude-code-agentic-coding-evolution-Lue8K2jqfKk.md)  
   從程式設計介面的歷史切入, 解釋自然語言 coding agent 的產品定位, 以及探索、規劃、TDD、context 與平行 agents 的實務方法。
 
@@ -167,6 +170,9 @@
 
 - [Docker 與 Kubernetes 基礎實作: 從容器到工作負載編排](2022-10-12-docker-kubernetes-fundamentals-kTp5xUtcalw.md)
   從 microservices、Docker image、Compose 與 registry 開始, 逐步實作 Kubernetes workloads、Services、儲存、設定、健康檢查與 HPA。
+
+- [Kubernetes Operator Best Practices: Resource Version, Retry, Concurrency 與 Predicate](2026-07-31-kubernetes-operator-best-practices-hAsz5GAbBQE.md)
+  深入 controller 的 optimistic concurrency, conflict-aware retry, concurrent reconcile workers 與 event filtering, 並整理 idempotency、side effects 及容量控制的實務邊界.
 
 - [掌握 LLM Inference 最佳化, 從原理到具成本效益的部署](2025-01-01-llm-inference-optimization-9tvJ_GYJA-o.md)
   從 tokenization、attention 與 KV cache 說明 LLM serving, 並以 TTFT、ITL、query patterns、quantization、batching 與 parallelism 規劃效能及成本。
