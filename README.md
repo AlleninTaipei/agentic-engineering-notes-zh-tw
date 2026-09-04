@@ -166,7 +166,10 @@
 - [從零建立 Multimodal AI Agent](2025-06-27-building-multimodal-ai-agents-640KMYtxCeI.md)
   以 page-as-image pipeline 建立 mixed-media RAG agent, 涵蓋 multimodal embeddings、vector search、跨頁 context、tool loop 與 session memory。
 
-### LLM Inference 與部署基礎設施
+### LLM 訓練, Inference 與部署基礎設施
+
+- [利用多張 GPU 訓練大型語言模型: DeepSpeed, FlashAttention, Liger Kernel 與 Quantization](2025-03-29-multi-gpu-llm-training-mpuRca2UZtI.md)
+  從訓練記憶體帳目出發, 整理 gradient checkpointing, gradient accumulation, DeepSpeed ZeRO, CPU offload 與 fused kernels 的容量和效能取捨。
 
 - [Docker 與 Kubernetes 基礎實作: 從容器到工作負載編排](2022-10-12-docker-kubernetes-fundamentals-kTp5xUtcalw.md)
   從 microservices、Docker image、Compose 與 registry 開始, 逐步實作 Kubernetes workloads、Services、儲存、設定、健康檢查與 HPA。
