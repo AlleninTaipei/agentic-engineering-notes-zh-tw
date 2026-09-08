@@ -161,6 +161,9 @@
 - [從 Developer Advocacy 到 Agent Advocacy: 用評測與 Trace 改善工具採用](2026-08-26-agent-advocacy-devrel-Lrw0jqBNaw0.md)
   以 Sourcegraph 的工具評測與 GEO 實驗, 說明如何從 trace 找出多餘失敗回合, 並區分選購情境與痛點情境的產品提及落差.
 
+- [組織如何擴大 Skills 的使用: 結構設計, 集中目錄與治理責任](2026-08-28-organizational-skills-governance-M05vON8i0aI.md)
+  適合略讀的組織治理參考, 補充跨團隊 domain owner, 存取控制與平台分工. 優先閱讀技術債, 組織共用與治理責任三節; 十五團隊案例是模擬, 缺少真實部署與治理前後對照.
+
 ### Agent Memory 與 Multimodal Retrieval
 
 - [AI Research OS: 將萬筆 Notes 轉成可查詢、可演進的研究記憶](2026-06-26-ai-research-os-memory-ZRM_TfEZcIo.md)
