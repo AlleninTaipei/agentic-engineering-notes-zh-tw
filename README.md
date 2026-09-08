@@ -155,6 +155,12 @@
 - [Web Automation 的進階方法: 讓代理像人類一樣操作網站](2026-08-14-web-automation-agents-26RtyAm9y_Q.md)
   以 CLI、Chrome DevTools Protocol 與 sense-act-verify 迴圈建立可重用的瀏覽器代理, 並說明確定性程式與視覺模型的分工及安全邊界。
 
+- [讓 LLM 找到並使用開源函式庫: 文件入口, Markdown 與套件內建文件](2026-08-26-agent-ready-library-docs-V_5bn4q-vAI.md)
+  以 c15t 作者的第一手經驗補充函式庫文件配送方法, 包括 Markdown 入口, 隨套件發布文件與 AGENTS.md 導航. 優先閱讀套件內建文件與 Markdown 入口兩節; LLM 推薦量增加與 token 節省仍缺乏完整驗證.
+
+- [從 Developer Advocacy 到 Agent Advocacy: 用評測與 Trace 改善工具採用](2026-08-26-agent-advocacy-devrel-Lrw0jqBNaw0.md)
+  以 Sourcegraph 的工具評測與 GEO 實驗, 說明如何從 trace 找出多餘失敗回合, 並區分選購情境與痛點情境的產品提及落差.
+
 ### Agent Memory 與 Multimodal Retrieval
 
 - [AI Research OS: 將萬筆 Notes 轉成可查詢、可演進的研究記憶](2026-06-26-ai-research-os-memory-ZRM_TfEZcIo.md)
@@ -188,6 +194,9 @@
 
 - ★ | [Kernels、強化學習與 Agent Reward Hacking 進階研討](2026-07-17-kernels-rl-reward-hacking-agents-uIiA6DquRiE.md)
   從模型趨勢、開閉源差距與 inference provider 延伸到 benchmark verifier、kernel 最佳化、reinforcement learning 與 agent reward hacking。
+
+- [Agentic Inference 的 KV Cache Routing 與 Prefill/Decode 分離](2026-08-27-kv-cache-routing-pd-disaggregation-YXowceUKYJI.md)
+  以 Red Hat 的第一手測試補充跨 pod cache locality, KV 傳輸與 P/D worker 配置取捨. 優先閱讀實驗結果與部署決策兩節; GLM 配置有來源差異, aggregated 基準的 chunked prefill 設定未交代, 效能倍數不宜直接作為容量承諾.
 
 ### Codex 個人工作系統
 
