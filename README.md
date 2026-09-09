@@ -211,6 +211,9 @@
 
 ### 組織落地與專業領域
 
+- [企業共享知識庫如何控制機密外洩: 人工確認, 檔案權限與工具身分](2026-09-03-company-brain-access-control-0uC6u0lJJl4.md)
+  以 PromptQL 團隊的第一手設計與多人除錯案例, 補充共享知識的寫入確認, 檔案 scopes 與工具身分管理. 優先精讀第 4 至 6 節; 安全成效仍缺少獨立驗證, 權限撤銷與多人 context 隔離細節未完整交代.
+
 - [Cursor 的 Forward Deployed Engineering: 如何設計高影響力的 FDE 團隊](2026-07-14-forward-deployed-engineering-cursor-APqXGyCoGW4.md)
   整理 Cursor 如何判斷 FDE 適用場景、避免人力增補、組建初期團隊, 並以六週專案、客戶共建及 ROI 驗證推動企業 AI 落地。
 
