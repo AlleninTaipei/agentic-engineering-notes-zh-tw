@@ -134,6 +134,12 @@
 
 ### MCP、Skills 與工具生態
 
+- [資料庫 Agent 的 Build-Time 與 Run-Time 工具: 從任意 SQL 到身分綁定的操作](2026-09-09-database-agent-runtime-tools-9R--1tg45Jg.md)
+  由 Google MCP Toolbox 建造者說明工具權限如何從連線資訊, SQL 收斂到身分參數綁定, 並區分 SQL injection 防護與資料授權. 優先精讀第 4 至 7 節; 航班 demo 未成功播放, 缺少完整攻擊 trace, 可重現設定與評測結果, 尚不足以驗證實際防護效果.
+
+- [LinkedIn 的 Contextual Playbooks: 用 MCP 傳遞操作知識, 按需發現上千工具](2026-09-09-linkedin-contextual-playbooks-9wZpvF3QleU.md)
+  由 LinkedIn 內部建造團隊補充操作指引配送, PR 更新循環, 中央與本地 playbooks 分工, 以及三個 meta tools 的按需發現架構. 優先精讀第 4 至 8 節; 採用規模不等於品質改善, 任務成功率, 搜尋品質與更新回復的驗證仍不足.
+
 - [使用 Model Context Protocol 建立 Agents](2025-03-01-building-agents-with-mcp-workshop-kQmXtrmQ5Zg.md)  
   MCP 完整工作坊, 涵蓋 tools、resources、prompts、server 建置、agent framework 整合、sampling、OAuth 與 remote servers。
 
