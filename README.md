@@ -53,7 +53,18 @@
 
 ## 全部筆記
 
+已整理的筆記一併保留於下方主題索引, 包含先前暫緩收錄的材料. 收錄供日後查找, 不代表必須立即閱讀; 來源限制與閱讀優先級仍可分開判斷. 同一影片有多版整理時, 另行標示.
+
 ### AI coding 與軟體工程方法
+
+- [Agentic Engineering: 與 AI 一起工作, 不只是使用 AI](2026-04-07-agentic-engineering-working-with-ai-BEKc4P87XKo.md)
+  整理人與 agent 的分工, context 管理, research-plan-implement 與程式碼審查方法.
+
+- [Coding Agent 做 AI Systems Engineering: Skills, Kernels 與自動研究實驗室](2026-05-21-coding-agents-ai-systems-engineering-JomVvNDjGb8.md)
+  探討 coding agents 如何改變 AI 系統工程, 以及工程師在工具, 流程與驗證上的責任.
+
+- [Anthropic Labs 如何建造產品: 大膽委派, 兩週實驗與理解導向的 Review](2026-08-27-how-anthropic-builds-labs-qqrk7CtkuIw.md)
+  從 Anthropic Labs 的產品實驗與程式遷移經驗, 討論授權範圍, 快速迭代與理解導向的 review.
 
 - [AI 時代, 軟體工程基本功比以往更重要](2026-04-23-software-fundamentals-v4F1gFy-hqg.md)
   從 specs-to-code 的失敗模式說明 AI 如何放大 software entropy, 並以清楚需求、deep modules、測試與持續重構維持 codebase 的可理解性及可修改性.
@@ -102,6 +113,24 @@
 
 ### Agent 架構與長時程工作
 
+- [Claude Code 如何運作: Coding Agent 的簡單迴圈, Tools 與 Context Engineering](2025-12-26-how-claude-code-works-RFKCzGlAU6Q.md)
+  從外部研究與使用經驗分析 Claude Code 的 loop, tools 與 context engineering, 非官方內部架構說明.
+
+- [State of the Claw: OpenClaw 的成長, 安全與個人 Agent 願景](2026-04-17-state-of-the-claw-zgNvts_2TUE.md)
+  由 OpenClaw 創作者分享專案成長, 開源治理, 安全壓力與個人 agent 的發展方向.
+
+- [用 Event Sourcing 建立可除錯, 可組合的 Agent Harness](2026-05-14-event-sourced-agent-harness-vi-2nasppAg.md)
+  以 append-only event stream, reducer 與事件處理流程探索可重播, 可組合的 agent harness.
+
+- [何時應自建 Agent Harness: Distribution, Evals 與 Trace-Driven Improvement](2026-08-13-when-to-build-own-agent-harness-HI2q3ci3Iuc.md)
+  討論採用現成 harness, hooks 與 middleware, 到自建架構之間的選擇.
+
+- [從 Python Loop 到檔案式 Agent: Skills, CLI 與託管 Sandbox 的責任分工](2026-09-14-agents-files-hosted-sandbox-fjF8EKnxKCU.md)
+  比較手寫 loop, framework 與託管 sandbox 的責任分工, 包括憑證代理與檔案式能力擴充.
+
+- [Production Agent 的 Harness Engineering: 從本機工具到獨立擴展的 Runtime 與 Memory](2026-09-14-production-agent-harness-agentcore-gxVZ_1tuuq4.md)
+  以 Strands 與 AgentCore 介紹 session manager, 獨立記憶服務, IaC 部署與設定式 harness.
+
 - [如何打造有效的 AI Agents](2025-04-04-building-effective-agents-D7_ipDqhtwk.md)
   Anthropic 從任務複雜度、價值、關鍵能力與錯誤風險說明何時適合使用 agent, 並以 environment、tools 和 system prompt 建立最小可行架構。
 
@@ -133,6 +162,15 @@
   從問題、任務到成果的產品演進, 介紹 agent、environment、session 及「腦與手分離」的 managed agents 架構。
 
 ### MCP、Skills 與工具生態
+
+- [MCP 的起源, 設計取捨與創業機會](2025-06-18-mcp-origins-startup-opportunities-x-8pBqWiTzk.md)
+  從 MCP 的起源與產品視角, 討論 model agency, 工具介面設計與生態中的創業機會.
+
+- [Beyond Components: MCP Apps 與生成式 UI 的下一步](2026-06-03-generative-ui-mcp-apps-hCMrEfPG2Yg.md)
+  探討 generative UI 與 MCP Apps 如何將互動介面帶入 agent 工作流程.
+
+- [AI-Native 組織如何用 Skills 運作: 從個人工具到治理平台 (同影片另一版整理)](2026-08-28-ai-native-organizations-run-on-skills-M05vON8i0aI.md)
+  同影片另一版整理, 聚焦個人, 團隊與組織三層 skills 治理, catalog 與責任分工.
 
 - [資料庫 Agent 的 Build-Time 與 Run-Time 工具: 從任意 SQL 到身分綁定的操作](2026-09-09-database-agent-runtime-tools-9R--1tg45Jg.md)
   由 Google MCP Toolbox 建造者說明工具權限如何從連線資訊, SQL 收斂到身分參數綁定, 並區分 SQL injection 防護與資料授權. 優先精讀第 4 至 7 節; 航班 demo 未成功播放, 缺少完整攻擊 trace, 可重現設定與評測結果, 尚不足以驗證實際防護效果.
@@ -172,6 +210,18 @@
 
 ### Agent Memory 與 Multimodal Retrieval
 
+- [Agentic Search 與 Context Engineering: 如何設計 Agent 的搜尋工具組](2026-05-08-agentic-search-context-engineering-ynJyIKwjonM.md)
+  比較專用搜尋, 通用資料庫查詢與 shell 工具, 說明 agentic search 的能力與使用成本取捨.
+
+- [Agent Context Management: 從截斷, 記憶到 Sub-Agent 隔離](2026-05-10-context-management-agents-esY99nYXxR4.md)
+  整理 Alyx 的 context 截斷, 記憶回查, sub-agent 隔離與長對話 eval 經驗.
+
+- [用 LLM 建立個人 Knowledge Base: 從語音筆記到自動更新 Wiki](2026-08-12-llm-knowledge-bases-I3bpdgFJCUY.md)
+  探討 LLM 知識庫的建置與使用方式, 作為知識管理與 context 設計的補充材料.
+
+- [Agent 缺少組織脈絡: Context Engine 如何補上搜尋與理解之間的落差](2026-09-09-agent-context-engine-KcVkq5L-0f0.md)
+  整理 context engine 的六項能力, 搜尋瓶頸與三個開源工具入口, 成效數字為供應商自述.
+
 - [AI Research OS: 將萬筆 Notes 轉成可查詢、可演進的研究記憶](2026-06-26-ai-research-os-memory-ZRM_TfEZcIo.md)
   以 immutable raw、file-based index 與 living wiki 建立 project-scoped 研究記憶, 並說明 deep research、漸進式查詢、來源追溯及增量演進的架構取捨。
 
@@ -182,6 +232,12 @@
   以 page-as-image pipeline 建立 mixed-media RAG agent, 涵蓋 multimodal embeddings、vector search、跨頁 context、tool loop 與 session memory。
 
 ### LLM 訓練, Inference 與部署基礎設施
+
+- [Machine Learning for Everybody: 從資料準備到分類, 回歸與非監督學習](2022-09-26-machine-learning-for-everybody-i_LwzRVP7bg.md)
+  以公開 datasets 與 notebooks 介紹資料準備, 分類, 回歸, 分群與降維的基礎流程.
+
+- [系統設計基礎課程: 從單機架構到 API, 安全與權限控制](2026-04-16-system-design-course-C842vFY5kRo.md)
+  從單機系統逐步說明分層, 水平擴展, 負載平衡, API 與安全設計.
 
 - [利用多張 GPU 訓練大型語言模型: DeepSpeed, FlashAttention, Liger Kernel 與 Quantization](2025-03-29-multi-gpu-llm-training-mpuRca2UZtI.md)
   從訓練記憶體帳目出發, 整理 gradient checkpointing, gradient accumulation, DeepSpeed ZeRO, CPU offload 與 fused kernels 的容量和效能取捨。
@@ -216,6 +272,9 @@
   拆解 app server、Responses API、deferred tools、非同步 actions、sandbox、auto review、WebSocket、goal loop 與 server-side compaction。
 
 ### 組織落地與專業領域
+
+- [每個人都能擁有一家軟體公司: Personal Cloud, Software Ownership 與 Cloud Agents](2026-09-03-personal-cloud-software-ownership-Qr15lGAGKpo.md)
+  以 Zo Computer 的 personal cloud 示範討論軟體與資料所有權, 並保留產品宣傳與證據限制.
 
 - [企業共享知識庫如何控制機密外洩: 人工確認, 檔案權限與工具身分](2026-09-03-company-brain-access-control-0uC6u0lJJl4.md)
   以 PromptQL 團隊的第一手設計與多人除錯案例, 補充共享知識的寫入確認, 檔案 scopes 與工具身分管理. 優先精讀第 4 至 6 節; 安全成效仍缺少獨立驗證, 權限撤銷與多人 context 隔離細節未完整交代.
