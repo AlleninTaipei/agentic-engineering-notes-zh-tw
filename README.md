@@ -53,7 +53,7 @@
 
 ## 全部筆記
 
-已整理的筆記一併保留於下方主題索引, 包含先前暫緩收錄的材料. 收錄供日後查找, 不代表必須立即閱讀; 來源限制與閱讀優先級仍可分開判斷. 同一影片有多版整理時, 另行標示.
+下方主題索引收錄經篩選後保留的筆記. 6 至 8 分的內容通常略過, 能補足知識缺口的基礎教學除外; 0 至 5 分的內容排除. 同一影片原則上保留一份主版本, 避免重複收錄. 收錄供日後查找, 不代表必須立即閱讀.
 
 ### AI coding 與軟體工程方法
 
@@ -96,9 +96,6 @@
 - [理解力才是新的瓶頸: 與 AI Agent 協作時如何留在人類決策迴路中](2026-07-10-understanding-is-the-new-bottleneck-WkBPX-oDMnA.md)
   以 explainer、理解測驗、microworlds 與團隊共享空間, 建立不只驗證正確性, 也能維持人類參與和創造能力的 AI 協作流程。
 
-- [未來工程師: 選擇值得做的事, 並為結果負責](2026-07-14-engineer-of-the-future-n97BCfyFIvw.md)
-  說明 agents 普及後, 工程師的價值如何從程式碼產量轉向問題選擇、證據判讀、production verdict、高 agency 與結果責任。
-
 - ★ | [Harness Engineering 還不夠: 為什麼軟體工廠會失敗](2026-07-23-harness-engineering-is-not-enough-Ib5GBkD555M.md)
   說明 agent harness 為何無法單獨解決可維護性問題, 並從軟體工廠、coding agent 訓練與長時程 benchmark 探討先規劃再生成的工程方法。
 
@@ -127,9 +124,6 @@
 
 - [從 Python Loop 到檔案式 Agent: Skills, CLI 與託管 Sandbox 的責任分工](2026-09-14-agents-files-hosted-sandbox-fjF8EKnxKCU.md)
   比較手寫 loop, framework 與託管 sandbox 的責任分工, 包括憑證代理與檔案式能力擴充.
-
-- [Production Agent 的 Harness Engineering: 從本機工具到獨立擴展的 Runtime 與 Memory](2026-09-14-production-agent-harness-agentcore-gxVZ_1tuuq4.md)
-  以 Strands 與 AgentCore 介紹 session manager, 獨立記憶服務, IaC 部署與設定式 harness.
 
 - [如何打造有效的 AI Agents](2025-04-04-building-effective-agents-D7_ipDqhtwk.md)
   Anthropic 從任務複雜度、價值、關鍵能力與錯誤風險說明何時適合使用 agent, 並以 environment、tools 和 system prompt 建立最小可行架構。
@@ -168,9 +162,6 @@
 
 - [Beyond Components: MCP Apps 與生成式 UI 的下一步](2026-06-03-generative-ui-mcp-apps-hCMrEfPG2Yg.md)
   探討 generative UI 與 MCP Apps 如何將互動介面帶入 agent 工作流程.
-
-- [AI-Native 組織如何用 Skills 運作: 從個人工具到治理平台 (同影片另一版整理)](2026-08-28-ai-native-organizations-run-on-skills-M05vON8i0aI.md)
-  同影片另一版整理, 聚焦個人, 團隊與組織三層 skills 治理, catalog 與責任分工.
 
 - [資料庫 Agent 的 Build-Time 與 Run-Time 工具: 從任意 SQL 到身分綁定的操作](2026-09-09-database-agent-runtime-tools-9R--1tg45Jg.md)
   由 Google MCP Toolbox 建造者說明工具權限如何從連線資訊, SQL 收斂到身分參數綁定, 並區分 SQL injection 防護與資料授權. 優先精讀第 4 至 7 節; 航班 demo 未成功播放, 缺少完整攻擊 trace, 可重現設定與評測結果, 尚不足以驗證實際防護效果.
@@ -287,9 +278,6 @@
 
 - ★ | [Forward Deployed Engineering 101](2026-07-28-forward-deployed-engineering-101-KwhgfwOSToQ.md)
   說明 FDE 如何在可重用平台上與客戶共同交付商業成果, 以及公司在採用這種 go-to-market 模式前應具備的條件。
-
-- [企業如何擁有自己的 Intelligence, 從租用模型到掌控 Weights](2026-08-11-own-your-intelligence-bMMv0bZzONg.md)
-  以 cost、speed、performance 與 control 評估 AI capability 的 own-vs-rent 邊界, 並整理團隊、legibility、evals、post-training 與 data flywheel 路線。
 
 - [為什麼企業技術堆疊尚未準備好迎接 AI 代理](2026-08-19-enterprise-tech-stack-ai-agents-mav15aW9lLM.md)
   以醫療產業為例, 說明如何用不可變事件紀錄、敏感資料隔離、人機等價操作與可重播評估, 建立符合企業治理要求的代理架構。
